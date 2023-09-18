@@ -1,4 +1,4 @@
-## Basic idea: Steps to implement a classical operation on a Quantum Computer:
+## Basic idea: Steps to implement a classical operation on a Quantum Computer: 
 1. **Quantum Circuit**: Think of a quantum circuit as a set of instructions for the quantum computer. Just like a recipe guides a chef in the kitchen, a quantum circuit guides the quantum computer in performing specific tasks.
 2. **Encoding**: When you want to add two numbers, the first step is to encode these numbers into a quantum state. This is like translating the numbers into a language that the quantum computer understands. If you have the numbers 3 and 2, you would represent them as a set of qubits in a specific way.
 3. **Quantum Addition**: The heart of the process involves performing addition using quantum gates and operations. This step is where the quantum magic happens. Quantum gates are like specialized tools that the quantum computer uses to manipulate the qubits in a way that simulates addition.
@@ -108,7 +108,7 @@ print(f"The result of {number1} + {number2} is {result}")
 plot_histogram(counts)
 
 ```
-# Half Adder Limitations in G2 (quantum_addition.py)
+# Half Adder Limitations (quantum_addition.py)
 
 Even though the code is designed to add two numbers using a quantum circuit. However, it is not working correctly for certain input numbers,
 For examples:
